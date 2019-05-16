@@ -1,0 +1,25 @@
+{
+    "name": "mengyonghang/uploadfile",
+    "description": "my test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mengyonghang",
+            "email": "421814882@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Mengyonghang\\": "src/"
+		}
+	},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
